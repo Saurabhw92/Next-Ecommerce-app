@@ -7,7 +7,7 @@
 - Content Hosting: cloudinary
 - Deploy: Github, Vercel, MongoDB Atlas
 
-![next Eshop](/public/app.png)
+![next Eshop](/public/app.PNG)
 
 
 ## What is covered in this project
