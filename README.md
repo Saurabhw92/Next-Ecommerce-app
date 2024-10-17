@@ -8,6 +8,9 @@
 - Deploy: Github, Vercel, MongoDB Atlas
 
 ![next Eshop](/public/app.PNG)
+![next Eshop](/public/app2.PNG)
+![next Eshop](/public/app3.PNG)
+![next Eshop](/public/app4.PNG)
 
 
 ## What is covered in this project
