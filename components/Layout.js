@@ -53,16 +53,16 @@ export default function Layout({ title, children }) {
             </Link>
             <form
               onSubmit={submitHandler}
-              className="mx-auto  hidden  justify-center md:flex"
+              className="mx-auto  justify-center md:flex"
             >
               <input
                 onChange={(e) => setQuery(e.target.value)}
                 type="text"
-                className="hidden rounded-tr-none rounded-br-none p-1 text-sm   focus:ring-0"
+                className=" rounded-tr-none rounded-br-none p-1 text-sm   focus:ring-0"
                 placeholder="Search products"
               />
               <button
-                className="hidden rounded rounded-tl-none rounded-bl-none bg-amber-300 p-1 text-sm dark:text-black"
+                className="rounded rounded-tl-none rounded-bl-none bg-amber-300 p-1 text-sm dark:text-black"
                 type="submit"
                 id="button-addon2"
               >
@@ -82,7 +82,7 @@ export default function Layout({ title, children }) {
               {status === 'loading' ? (
                 'Loading'
               ) : session?.user ? (
-                <Menu as="div" className="hidden relative inline-block">
+                <Menu as="div" className="relative inline-block">
                   <Menu.Button className="text-blue-600">
                     {session.user.name}
                   </Menu.Button>
@@ -122,7 +122,7 @@ export default function Layout({ title, children }) {
                   </Menu.Items>
                 </Menu>
               ) : (
-                <Link href="/login" className="hidden p-2">
+                <Link href="/login" className="p-2">
                   Login
                 </Link>
               )}
@@ -131,7 +131,7 @@ export default function Layout({ title, children }) {
         </header>
         <main className="container m-auto mt-4 px-4">{children}</main>
         <footer className="flex h-10 justify-center items-center shadow-inner">
-          <p>Copyright © 2022 Eshop</p>
+          <p>Copyright © 2024 Eshop</p>
         </footer>
       </div>
     </>
